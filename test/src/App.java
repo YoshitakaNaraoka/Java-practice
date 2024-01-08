@@ -6,16 +6,7 @@ public class App {
         System.out.println(number1+number2); // number1にnumber2を足した値を出力してください
         System.out.println(number1-number2); // number1からnumber2を引いた値を出力してください
         // この文章をコメントにしてください
-        System.out.println("こんにちは、Java"); // 「こんにちは、Java」と出力してください
-        System.out.println(17); // 数値の17を出力してください
-        System.out.println(5+3); // 5に3を足した値を出力してください
-        System.out.println("5 + 3"); // 「5 + 3」を文字列として出力してください
-        System.out.println(12/3); // 12を3で割った値を出力してください
-        System.out.println(3*6); // 3に6を掛けた値を出力してください
-        System.out.println(8%3); // 8を3で割った時の余りを出力してください
-        System.out.println("こんにちは"+"世界"); // "こんにちは"と"世界"を連結して出力してください
-        System.out.println("38"+"19"); // "38"と"19"を連結して出力してください
-        System.out.println(38+19); // 38と19を足して出力してください
+        System.out.println("こんにちは、Java",17,5+3,"5 + 3",12/3,3*6,8%3,"こんにちは"+"世界","38"+"19",38+19); // 「こんにちは、Java」と出力してください
         int number; // int型の変数numberを定義してください
         number = 3; // 変数numberに3を代入してください
         System.out.println(number); // 変数numberを出力してください
