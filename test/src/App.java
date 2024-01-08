@@ -1,4 +1,4 @@
-public class App {
+class App {
     public static void main(String[] args) {
         double number1 = 8.5; // double型の変数number1を定義し、8.5を代入してください。
         double number2 = 3.4; // double型の変数number2を定義し、3.4を代入してください。
