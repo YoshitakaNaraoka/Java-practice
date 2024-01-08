@@ -1,11 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        
         double number1 = 8.5; // double型の変数number1を定義し、8.5を代入してください。
         double number2 = 3.4; // double型の変数number2を定義し、3.4を代入してください。
         System.out.println(number1+number2); // number1にnumber2を足した値を出力してください
         System.out.println(number1-number2); // number1からnumber2を引いた値を出力してください
-        // この文章をコメントにしてください
         int number; // int型の変数numberを定義してください
         number = 3; // 変数numberに3を代入してください
         System.out.println(number); // 変数numberを出力してください
@@ -37,9 +35,7 @@ public class App {
         int length = 6;
         int height = 8;
         int rectangleArea = length * height; // 変数rectangleAreaに、四角形の面積を代入してください
-        System.out.println(); // 変数rectangleAreaを出力してください
         int triangleArea =rectangleArea/2; // 変数triangleAreaに、三角形の面積を代入してください
-        System.out.println(); // 変数triangleAreaを出力してください
         System.out.println("Hello, World!","こんにちは、Java",17,5+3,"5 + 3",12/3,3*6,8%3,"こんにちは"+"世界","38"+"19",38+19,rectangleArea,triangleArea); //真剣に動くコードはここだけ
     }
 }
