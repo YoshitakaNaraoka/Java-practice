@@ -1,136 +1,136 @@
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!"); //真剣に動くコードはここだけ
-         // double型の変数number1を定義し、8.5を代入してください。
-        double number1 = 8.5;
+         
+        double number1 = 8.5; // double型の変数number1を定義し、8.5を代入してください。
     
-        // double型の変数number2を定義し、3.4を代入してください。
-        double number2 = 3.4;
         
-        // number1にnumber2を足した値を出力してください
-        System.out.println(number1+number2);
+        double number2 = 3.4; // double型の変数number2を定義し、3.4を代入してください。
         
-        // number1からnumber2を引いた値を出力してください
-        System.out.println(number1-number2);
+        
+        System.out.println(number1+number2); // number1にnumber2を足した値を出力してください
+        
+        
+        System.out.println(number1-number2); // number1からnumber2を引いた値を出力してください
 
         // この文章をコメントにしてください
-        System.out.println("こんにちは、Java");
-        // 「こんにちは、Java」と出力してください
+        System.out.println("こんにちは、Java"); // 「こんにちは、Java」と出力してください
 
-        // 数値の17を出力してください
-        System.out.println(17);
         
-        // 5に3を足した値を出力してください
-        System.out.println(5+3);
         
-        // 「5 + 3」を文字列として出力してください
-        System.out.println("5 + 3");
+        System.out.println(17); // 数値の17を出力してください
+        
+        
+        System.out.println(5+3); // 5に3を足した値を出力してください
+        
+        
+        System.out.println("5 + 3"); // 「5 + 3」を文字列として出力してください
 
-        // 12を3で割った値を出力してください
-        System.out.println(12/3);
         
-        // 3に6を掛けた値を出力してください
-        System.out.println(3*6);
+        System.out.println(12/3); // 12を3で割った値を出力してください
         
-        // 8を3で割った時の余りを出力してください
-        System.out.println(8%3);
+        
+        System.out.println(3*6); // 3に6を掛けた値を出力してください
+        
+        
+        System.out.println(8%3); // 8を3で割った時の余りを出力してください
 
-        // "こんにちは"と"世界"を連結して出力してください
-        System.out.println("こんにちは"+"世界");
         
-        // "38"と"19"を連結して出力してください
-        System.out.println("38"+"19");
-        // 38と19を足して出力してください
-        System.out.println(38+19);
+        System.out.println("こんにちは"+"世界"); // "こんにちは"と"世界"を連結して出力してください
+        
+        
+        System.out.println("38"+"19"); // "38"と"19"を連結して出力してください
+        
+        System.out.println(38+19); // 38と19を足して出力してください
 
-        // int型の変数numberを定義してください
-        int number;
         
-        // 変数numberに3を代入してください
-        number = 3;
+        int number; // int型の変数numberを定義してください
         
-        // 変数numberを出力してください
-        System.out.println(number);
+        
+        number = 3; // 変数numberに3を代入してください
+        
+        
+        System.out.println(number); // 変数numberを出力してください
 
-        // String型の変数nameを定義してください
-        String name;
         
-        // 変数nameに"Wanko"を代入してください
-        name = "Wanko";
+        String name; // String型の変数nameを定義してください
         
-        // 変数nameを出力してください
-        System.out.println(name);
+        
+        name = "Wanko"; // 変数nameに"Wanko"を代入してください
+        
+        
+        System.out.println(name); // 変数nameを出力してください
 
         int number1 = 3;
     
-        // int型の変数number2を定義し、7を代入してください
-        int number2 = 7;
         
-        // number1 * number2を出力してください
-        System.out.println(number1*number2);
+        int number2 = 7; // int型の変数number2を定義し、7を代入してください
         
-        // 変数textに「プログラミングを勉強しよう」を代入してください
-        String text = "プログラミングを勉強しよう";
         
-        // 「Progateで」と変数textを連結して出力してください
-        System.out.println("Progateで"+text);
+        System.out.println(number1*number2); // number1 * number2を出力してください
+        
+        
+        String text = "プログラミングを勉強しよう"; // 変数textに「プログラミングを勉強しよう」を代入してください
+        
+        
+        System.out.println("Progateで"+text); // 「Progateで」と変数textを連結して出力してください
 
         int number = 11;
         String text = "Ruby";
         System.out.println(number);
         System.out.println(text);
         
-        // 変数numberを9で上書きしてください
-        number = 9;
         
-        // 変数numberを出力してください
-        System.out.println(number);
+        number = 9; // 変数numberを9で上書きしてください
         
-        // 変数textを「Java」で上書きしてください
-        text = "Java";
         
-        // 変数textを出力してください
-        System.out.println(text);
+        System.out.println(number); // 変数numberを出力してください
+        
+        
+        text = "Java"; // 変数textを「Java」で上書きしてください
+        
+        
+        System.out.println(text); // 変数textを出力してください
 
         int number = 3;
         System.out.println(number);
         
-        // 変数numberの値に7を足して、変数numberを上書きしてください
-        number = number + 7;
         
-        // 変数numberを出力してください
-        System.out.println(number);
+        number = number + 7; // 変数numberの値に7を足して、変数numberを上書きしてください
+        
+        
+        System.out.println(number); // 変数numberを出力してください
 
         int number = 8;
     
-        // 変数numberに7をかけて、変数numberを上書きしてください
-        number *= 7;
         
-        // 変数numberを出力してください
-        System.out.println(number);
+        number *= 7; // 変数numberに7をかけて、変数numberを上書きしてください
         
-        // 変数numberの値に1を足して、変数numberを上書きしてください
-        number++;
         
-        // 変数numberを出力してください
-        System.out.println(number);
+        System.out.println(number); // 変数numberを出力してください
+        
+        
+        number++; // 変数numberの値に1を足して、変数numberを上書きしてください
+        
+        
+        System.out.println(number); // 変数numberを出力してください
 
         int length = 6;
         int height = 8;
         
-        // 変数rectangleAreaに、四角形の面積を代入してください
-        int rectangleArea = length * height;
         
-        // 変数rectangleAreaを出力してください
-        System.out.println(rectangleArea);
+        int rectangleArea = length * height; // 変数rectangleAreaに、四角形の面積を代入してください
         
-        // 変数triangleAreaに、三角形の面積を代入してください
-        int triangleArea =rectangleArea/2;
         
-        // 変数triangleAreaを出力してください
-        System.out.println(triangleArea);
+        System.out.println(rectangleArea); // 変数rectangleAreaを出力してください
+        
+        
+        int triangleArea =rectangleArea/2; // 変数triangleAreaに、三角形の面積を代入してください
+        
+        
+        System.out.println(triangleArea); // 変数triangleAreaを出力してください
 
-        
+
     
     }
 }
