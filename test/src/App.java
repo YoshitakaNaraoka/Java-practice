@@ -37,6 +37,5 @@ public class App {
         int rectangleArea = length * height; // 変数rectangleAreaに、四角形の面積を代入してください
         int triangleArea =rectangleArea/2; // 変数triangleAreaに、三角形の面積を代入してください
         System.out.println("Hello, World!","こんにちは、Java",17,5+3,"5 + 3",12/3,3*6,8%3,"こんにちは"+"世界","38"+"19",38+19,rectangleArea,triangleArea); //真剣に動くコードはここだけ
-
     }
 }
