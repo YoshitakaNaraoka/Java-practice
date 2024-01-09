@@ -6,8 +6,7 @@ public class App {
         String name; // String型の変数nameを定義してください
         name = "Wanko"; // 変数nameに"Wanko"を代入してください
         System.out.println(name); // 変数nameを出力してください
-        int number1 = 3;
-        int number2 = 7; // int型の変数number2を定義し、7を代入してください
+        
         System.out.println(number1*number2); // number1 * number2を出力してください
         String text = "プログラミングを勉強しよう"; // 変数textに「プログラミングを勉強しよう」を代入してください
         System.out.println("Progateで"+text); // 「Progateで」と変数textを連結して出力してください
@@ -28,6 +27,8 @@ public class App {
         System.out.println(number); // 変数numberを出力してください
         number++; // 変数numberの値に1を足して、変数numberを上書きしてください
         System.out.println(number); // 変数numberを出力してください
+        int number1 = 3;
+        int number2 = 7; // int型の変数number2を定義し、7を代入してください
         double number1 = 8.5; // double型の変数number1を定義し、8.5を代入してください。
         double number2 = 3.4; // double型の変数number2を定義し、3.4を代入してください。
         System.out.println(number1+number2); // number1にnumber2を足した値を出力してください
