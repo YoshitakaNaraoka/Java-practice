@@ -1,3 +1,4 @@
+@SuppressWarnings("serial")
 public class App {
     public static void main(String[] args) {
         int number1 =3; // int型の変数numberを定義してください
