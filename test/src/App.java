@@ -1,15 +1,15 @@
 public class App {
     public static void main(String[] args) {
-        int number1; // int型の変数numberを定義してください
-        number1 = 3; // 変数numberに3を代入してください
+        int number1 =3; // int型の変数numberを定義してください
+    
         System.out.println(number1); // 変数numberを出力してください
-        String name; // String型の変数nameを定義してください
-        name = "Wanko"; // 変数nameに"Wanko"を代入してください
+        String name="Wanko"; // String型の変数nameを定義してください
+    
         System.out.println(name); // 変数nameを出力してください
         String text = "プログラミングを勉強しよう"; // 変数textに「プログラミングを勉強しよう」を代入してください
         System.out.println("Progateで"+text); // 「Progateで」と変数textを連結して出力してください
         int number2 = 11;
-        String text = "Ruby";
+        text = "Ruby";
         System.out.println(number2);
         System.out.println(text);
         number3 = 9; // 変数numberを9で上書きしてください
