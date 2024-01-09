@@ -6,8 +6,6 @@ public class App {
         String name; // String型の変数nameを定義してください
         name = "Wanko"; // 変数nameに"Wanko"を代入してください
         System.out.println(name); // 変数nameを出力してください
-        
-        
         String text = "プログラミングを勉強しよう"; // 変数textに「プログラミングを勉強しよう」を代入してください
         System.out.println("Progateで"+text); // 「Progateで」と変数textを連結して出力してください
         int number2 = 11;
