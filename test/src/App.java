@@ -1,11 +1,10 @@
-@SuppressWarnings("serial")
 public class App {
     public static void main(String[] args) {
         int number1 =3; // int型の変数numberを定義してください
         System.out.println(number1); // 変数numberを出力してください
-        static name="Wanko"; // String型の変数nameを定義してください
+        String name="Wanko"; // String型の変数nameを定義してください
         System.out.println(name); // 変数nameを出力してください
-        static text = "プログラミングを勉強しよう"; // 変数textに「プログラミングを勉強しよう」を代入してください
+        String text = "プログラミングを勉強しよう"; // 変数textに「プログラミングを勉強しよう」を代入してください
         System.out.println("Progateで"+text); // 「Progateで」と変数textを連結して出力してください
         int number2 = 11;
         text = "Ruby";
