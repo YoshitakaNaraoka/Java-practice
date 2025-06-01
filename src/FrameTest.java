@@ -6,8 +6,12 @@ public class FrameTest {
     EventQueue.invokeLater(new Runnable() {
       public void run() {
         JFrame frame = new JFrame();
-        frame.setSize(300, 200);
+        frame.setSize(1024, 768);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        // タイトル (多分ChromeOS Flexではタイトル非表示になる)
+        frame.setTitle( "Hello, Swing!" );
+
         frame.setVisible(true);
       }
     });
