@@ -2,9 +2,7 @@ public class MeasurementTime {
   public static void main(String[] args) {
     long startTime = System.currentTimeMillis();
 
-    int result = 0;
     for (int i = 0; i < 1000000; i++) {
-      result += 1;
     }
 
     long endTime = System.currentTimeMillis();
