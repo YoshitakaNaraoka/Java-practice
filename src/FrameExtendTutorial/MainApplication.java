@@ -18,7 +18,6 @@ public class MainApplication extends BaseFrame { // BaseFrame を継承
         contentPanel.add(new JLabel("ここはメインコンテンツエリアです。", SwingConstants.CENTER), BorderLayout.CENTER);
         contentPanel.add(new JTextArea("何か入力してください...", 5, 20), BorderLayout.NORTH);
 
-
         // ButtonPanel のインスタンスを作成
         ButtonPanel buttonPanel = new ButtonPanel();
 
@@ -34,7 +33,7 @@ public class MainApplication extends BaseFrame { // BaseFrame を継承
         // 閉じるボタンのアクションリスナーを設定
         buttonPanel.setCloseButtonActionListener(e -> {
             System.out.println("メインアプリケーションを終了します。");
-            dispose(); // このフレームを閉じる
+            dispose(); // 閉じる
         });
 
         // フレームにコンテンツとボタンパネルを追加

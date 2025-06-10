@@ -34,7 +34,7 @@ public class SecondaryDialog extends JDialog { // JDialog は JFrame を継承�
         // 閉じるボタンのアクションリスナーを設定
         buttonPanel.setCloseButtonActionListener(e -> {
             System.out.println("設定ダイアログをキャンセルしました。");
-            dispose(); // ダイアログを閉じる
+            dispose();
         });
 
         // ダイアログにコンテンツとボタンパネルを追加
