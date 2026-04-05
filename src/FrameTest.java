@@ -9,7 +9,6 @@ public class FrameTest {
         frame.setSize(1024, 768);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // タイトル (多分ChromeOS Flexではタイトル非表示になる)
         frame.setTitle( "Hello, Swing!" );
 
         frame.setVisible(true);
